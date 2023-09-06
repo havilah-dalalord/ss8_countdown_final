@@ -59,7 +59,7 @@ class Timer {
       this.updateInterfaceTime();
 
       if (this.remainingSeconds === 300) {
-        document.querySelector('.sc').innerHTML = 'Please That Rounding Up';
+        document.querySelector('.sc').innerHTML = 'Please Start Rounding Up';
         document.querySelector('.sc').style = 'color: #00AB5B;';
         document.querySelector('.sc').style.fontSize = '50px';
       }
